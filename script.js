@@ -43,7 +43,6 @@ let fxn = (e) => {
     if (f) e.target.innerHTML = "O";
     else e.target.innerHTML = "X";
     f = !f;
-
     checkWinner();
   }
 };
